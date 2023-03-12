@@ -1,0 +1,183 @@
+/*  
+  * {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.body-container {
+  margin: 0 1% 0 1%;
+  padding: 0 1% 0 1%;
+}
+
+.main-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.card {
+  height: 350px;
+  margin: 0 0 3px 0;
+  width: 24%;
+  padding: 1%;
+}
+
+
+.card1 {
+  max-height: 230px;
+}
+
+.main-card {
+  width: 49.5%;
+}
+
+.cardTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons-section,
+.comment-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.profile-pics {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  margin-top: 15px;
+}
+
+.profile-name {
+  font-size: 12px;
+  margin-left: 50px;
+  color: rgb(137, 143, 148);
+}
+
+.comments {
+  display: flex;
+}
+
+.comment-box {
+  background-color: #edecf1ff;
+  border-radius: 15px 15px 15px 0;
+  font-size: 15px;
+  height: 45px;
+  padding: 2px;
+}
+
+.card1-images {
+  height: 25px;
+  width: 50px;
+  border-radius: 10px;
+  margin-right: 3px;
+}
+
+.card3-buttons {
+  width: 50px;
+  height: 25px;
+  font-size: 12px;
+}
+
+.card3-items {
+  height: 40px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.fa-circle,
+.fa-circle-check,
+.fa-circle-notch {
+  font-size: 35px;
+  margin-top: 5px;
+}
+
+.task-right {
+  font-size: 14px;
+  margin-left: 8px;
+  height: 40px;
+}
+
+.task-profile-pics {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  margin-right: 8px;
+}
+
+.task-right-bottom {
+  display: flex;
+}
+
+.task-bottom-icon {
+  margin-right: 8px;
+}
+
+.bottom-card {
+  margin-left: 3px;
+  margin-top: 3px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.card-link {
+  margin-top: 17px;
+}
+
+a,
+.fa-plus {
+  color: #7a69f5ff;
+  text-decoration: none;
+}
+
+@media (max-width: 1100px) {
+  .main-body {
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .card {
+    min-width: 30%;
+    margin-top: 1%;
+  }
+
+  .main-card {
+    min-width: 55%;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-body {
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card {
+    min-width: 90%;
+    margin-top: 1%;
+  }
+
+  .main-card {
+    min-width: 90%;
+  }
+} */

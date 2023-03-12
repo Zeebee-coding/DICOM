@@ -1,0 +1,133 @@
+.main {
+  min-height: 100vh;
+  overflow: hidden !important;
+}
+
+.app {
+  background-color: #ebecf1;
+  overflow: hidden;
+  position: relative;
+  padding: 0px 20px;
+  min-height: 100vh;
+}
+
+.image {
+  position: fixed;
+  z-index: 0;
+  top: -69%;
+  right: -20%;
+  width: 100%;
+  height: 100%;
+  /* background-image: url("../../images/bg8.png"); */
+  background-size: contain;
+  background-position: center left;
+  background-repeat: no-repeat;
+}
+
+.topNavButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  margin-top: 50px;
+}
+.topNavButtons_left {
+  display: flex;
+  gap: 20px;
+}
+.topNavButtons_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#overviewBTN {
+  background-color: #cecdd1;
+  color: #6557d3;
+  padding: 0.59em;
+}
+#historyBTN {
+  background-color: #6557d3;
+  padding: 0.59em;
+}
+#uploadNewstudy_btn {
+  background-color: #6557d3;
+  padding: 0.59em;
+}
+.navbarBtnGroup_and_Searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px 0px;
+  gap: 10px;
+}
+.MuiOutlinedInput-input {
+  padding: 0px 10px !important;
+}
+
+.MuiOutlinedInput-adornedEnd {
+  height: 2.4em !important;
+}
+.navbarBtnGroup_and_Searchbar > span {
+  color: #bab9be;
+}
+.navbarBtnGroup {
+  width: 50%;
+  display: flex;
+  gap: 5%;
+}
+.inputField {
+  width: 49%;
+  margin-top: 6px;
+}
+.navbarBtnGroup .common_style {
+  background-color: #cecdd1;
+  padding: 8px 5px !important;
+}
+.navbarBtnGroup .common_style:hover {
+  background-color: #d3d3d6;
+}
+.navbarBtnGroup .common_style > b > span {
+  color: #999999;
+}
+.navbarBtnGroup .common_style > b {
+  color: #6557d3;
+}
+.navbarBtnGroup #all_btn {
+  background-color: #6557d3;
+}
+.navbarBtnGroup #all_btn > b > span {
+  color: #999999;
+}
+.today_cardsList {
+  display: flex;
+  width: 100%;
+}
+.today_cardsList > h1 {
+  width: 20%;
+}
+.today_cardsList .cardssss {
+  width: 80%;
+  height: auto;
+  z-index: 1;
+}
+
+/* Responsiveness */
+
+@media (max-width: 1024px) {
+  .navbarBtnGroup {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .inputField {
+    width: 100%;
+  }
+}
+
+@media (max-width: 920px) {
+  .image {
+    top: -59%;
+    right: -16%;
+  }
+}

@@ -1,0 +1,23 @@
+.dashboard {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-image: url(../../images/background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.dashboard__header {
+  width: 100%;
+  background-color: #292929;
+  padding: 0.1rem 0;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+a {
+  margin-top: 1em;
+}
